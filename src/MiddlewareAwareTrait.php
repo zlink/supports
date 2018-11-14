@@ -2,6 +2,9 @@
 
 namespace Support;
 
+use Psr\Http\Message\ServerRequestInterface;
+use Psr\Http\Message\ResponseInterface;
+
 trait MiddlewareAwareTrait
 {
     protected $tip;
