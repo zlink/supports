@@ -1,11 +1,11 @@
 <?php
 
-namespace Support;
+namespace Support\Triats;
 
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Message\ResponseInterface;
 
-trait MiddlewareAwareTrait
+trait ThrottleRequestsTrait
 {
     protected $tip;
 
