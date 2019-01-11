@@ -1,6 +1,6 @@
 <?php
 
-namespace Support\Triats;
+namespace Support\Traits;
 
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Message\ResponseInterface;

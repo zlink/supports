@@ -8,7 +8,7 @@ use Symfony\Component\HttpFoundation\Response as FoundationResponse;
 /**
  * 统一返回响应
  */
-trait ResponseTriat
+trait ResponseTrait
 {
     protected $statusCode = FoundationResponse::HTTP_OK;
 
