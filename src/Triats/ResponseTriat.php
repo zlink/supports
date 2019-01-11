@@ -5,6 +5,9 @@ namespace Support\Traits;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response as FoundationResponse;
 
+/**
+ * 统一返回响应
+ */
 trait ResponseTriat
 {
     protected $statusCode = FoundationResponse::HTTP_OK;

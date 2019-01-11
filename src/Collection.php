@@ -1,6 +1,6 @@
 <?php
 
-namespace Surpport\Util;
+namespace Surpport;
 
 class Collection
 {
