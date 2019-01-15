@@ -66,7 +66,7 @@ trait ResponseTrait
      * @param string $status
      * @return string
      */
-    public function notLogin($message = '请先登录', $code = '-10001', $status = 'error')
+    public function notLogin($message = 'Unauthorized.', $code = FoundationResponse::HTTP_UNAUTHORIZED, $status = 'error')
     {
         return $this->status($status, [
             'message' => $message,
@@ -97,7 +97,7 @@ trait ResponseTrait
      * @param string $message
      * @return
      */
-    public function created($message = "created")
+    public function created($message = "Created.")
     {
         return $this->setStatusCode(FoundationResponse::HTTP_CREATED)->message($message);
     }
